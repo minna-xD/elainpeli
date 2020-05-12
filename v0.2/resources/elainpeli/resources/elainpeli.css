@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 6, 2020, 3:30:02 PM
+    Author     : Minna
+*/
+
+.root {
+    -fx-background-color: #ffffff;
+}
+
+/* Aloitusnäkymän kentät */
+.text-field {
+    
+}
+
+#pelaajat-otsikko {
+    -fx-font-weight: bold;
+    
+}
+
+#noppa {
+    
+}
+
+#ohjeet {
+    /* Text-tyypin muotoilu ei toimi? */
+}
+
+#button-sammakko {
+    -fx-background-color: #0ed145;
+}
+#button-ankka {
+    -fx-background-color: #ffca18;
+}
+#button-possu {
+    -fx-background-color: #ffaec8;
+}
+#button-lehma {
+    -fx-background-color: #c3c3c3;
+}
+#button-hevonen {
+    -fx-background-color: #996633;
+}
