@@ -1,4 +1,4 @@
-# Eläinpeli
+# Eläinpeli - still in beta :)
 Ostin tytölle (silloin 1,5 v) erääksi jouluksi muutamia puuleluja. Yhdessä niistä kootaan viisi eläintä palasista. 
 Ohjeissa sanotaan, että se on peli, mutta minusta siinä ei ole mitään pelillistä. Keksin, että jos siihen 
 lisäisi nopan, joka määrää, minkä eläimen palan saa laittaa "pelilaudalle", se kävisi jo pelistä.
