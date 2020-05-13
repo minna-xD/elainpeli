@@ -29,6 +29,6 @@ This game is my first contribution to my portfolio.
 I want to remake the game in different languages/technologies that I learn along the way.
 
 ## Strategy
-After [the Java Programming I MOOC][https://java-programming.mooc.fi/], I made the very first version in Java which I developed 
-further after part II of the same MOOC. Currently I'm taking [the Full Stack Open][https://fullstackopen.com/] (among others) so I may 
+After [the Java Programming I MOOC](https://java-programming.mooc.fi/), I made the very first version in Java which I developed 
+further after part II of the same MOOC. Currently I'm taking [the Full Stack Open](https://fullstackopen.com/) (among others) so I may 
 look into one of those technologies for this.
