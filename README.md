@@ -29,4 +29,4 @@ Toivon oppivani ohjelmointia ja löytäväni itselleni sopivan paikan IT-maailma
 Haluan tutustua syvemmin matkan varrella oppimiini kieliin/teknologioihin toteuttamalla pelin niillä.
 
 ## Strategia
-[Ohjelmoinnin MOOC 2019 -peruskurssin][https://java-programming.mooc.fi/] jälkeen tein ohjelmasta ensimmäisen, Java-kielisen version, jota jatkokehitin samaisen MOOC:in jatkokurssin päätyttyä. Seuraavaksi saattaisi olla vuorossa jokin [Full Stack Open -kurssin][https://fullstackopen.com/] tekniikoista.
+[Ohjelmoinnin MOOC 2019 -peruskurssin](https://java-programming.mooc.fi/) jälkeen tein ohjelmasta ensimmäisen, Java-kielisen version, jota jatkokehitin samaisen MOOC:in jatkokurssin päätyttyä. Seuraavaksi saattaisi olla vuorossa jokin [Full Stack Open -kurssin](https://fullstackopen.com/) tekniikoista.
