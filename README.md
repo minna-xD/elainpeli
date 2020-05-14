@@ -23,7 +23,7 @@ Zipissä on exe ja sen käytön edellyttämä satsi JAR-tiedostoja. En takaa, et
 
 # Projektini
 
-(nämä seuraavat muuten varmaan menevät väärin, koska en puhu sujuvaa bisnestä x-D )
+(nämä seuraavat muuten varmaan menevät väärin, koska en puhu sujuvaa bisnestä :smile: )
 ## Visio
 Toivon oppivani ohjelmointia ja löytäväni itselleni sopivan paikan IT-maailmasta; sitä varten tässä aloittelen omaa portfoliota.
 
