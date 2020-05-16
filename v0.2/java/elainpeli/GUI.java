@@ -100,7 +100,12 @@ public class GUI extends Application {
         nelja.setId("button-lehma");
         viisi.setId("button-hevonen");
         
-        elaimet.setPrefHeight(250);
+        elaimet.setPrefHeight(270);
+        VBox.setMargin(yksi, new Insets(10, 0, 0, 0));
+        VBox.setMargin(kaksi, new Insets(10, 0, 0, 0));
+        VBox.setMargin(kolme, new Insets(10, 0, 0, 0));
+        VBox.setMargin(nelja, new Insets(10, 0, 0, 0));
+        VBox.setMargin(viisi, new Insets(10, 0, 0, 0));
 
         // TODO? getChildren():in avulla kaikkien määritys kerralla
         sammakko.setPrefWidth(60);
@@ -109,11 +114,11 @@ public class GUI extends Application {
         lehma.setPrefWidth(60);
         hevonen.setPrefWidth(60);
         
-        sammakko.setAlignment(Pos.TOP_CENTER);
-        ankka.setAlignment(Pos.TOP_CENTER);
-        possu.setAlignment(Pos.TOP_CENTER);
-        lehma.setAlignment(Pos.TOP_CENTER);
-        hevonen.setAlignment(Pos.TOP_CENTER);
+        sammakko.setAlignment(Pos.BOTTOM_CENTER);
+        ankka.setAlignment(Pos.BOTTOM_CENTER);
+        possu.setAlignment(Pos.BOTTOM_CENTER);
+        lehma.setAlignment(Pos.BOTTOM_CENTER);
+        hevonen.setAlignment(Pos.BOTTOM_CENTER);
         
         sammakko.getChildren().add(yksi);
         ankka.getChildren().add(kaksi);
@@ -154,7 +159,7 @@ public class GUI extends Application {
                 noppa.setText("");
                 noppa.setGraphic(new ImageView(kuva));
                 if (luku == 6) {
-                    ohjeidenPaivitys(peli.pelaajaVuorossa() + ", valitse jokin eläimistä.");
+                    ohjeidenPaivitys(peli.pelaajaVuorossa() + ", valitse jokin eläimistä!");
                     saaValita(); // falsesta trueksi
                 } else {
                     numerovalinta(luku);
@@ -265,14 +270,14 @@ public class GUI extends Application {
         }
 
         if (peli.elainValmistui(elain)) {
-            paivitettava.getChildren().add(new ImageView(paa));
             for (int i = 0; i < paloja - 1; i++) {
-                paivitettava.getChildren().add(new ImageView(pala));
+                paivitettava.getChildren().add(0, new ImageView(pala));
             }
+            paivitettava.getChildren().add(0, new ImageView(paa));
             return true;
         } else {
             for (int i = 0; i < paloja; i++) {
-                paivitettava.getChildren().add(new ImageView(pala));
+                paivitettava.getChildren().add(0, new ImageView(pala));
             }
             return false;
         }
@@ -316,7 +321,7 @@ public class GUI extends Application {
 
         boolean piste = false;
         if (!onnistuiko) {
-            ohjeidenPaivitys("Olepas tarkkana, se eläin on jo valmis.");
+            ohjeidenPaivitys("Se eläin on jo valmis.");
         } else {
             piste = elaimenPaivitys(numero, paivitettava);
             if (saakoValita) {
