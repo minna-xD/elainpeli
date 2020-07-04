@@ -18,6 +18,15 @@ Vuorollaan pelaajat heittävät noppaa. Sen silmäluku määrää, mille eläime
 Eläimet ovat eri kokoisia: sammakko koostuu yhdestä palasta, ankka kahdesta jne. Kun pelaaja saa eläimen valmiiksi, 
 hän saa siitä pisteen. Kun kaikki eläimet ovat valmiina, ohjelma kertoo voittajan.
 
+## Kuvia
+Piirtelin eläinten päät käsin Chromebookilla ja väritin ihan perus-Paintilla (Windows 10:n Paint 3D tosin). En väitä olevani taiteilija. :see_no_evil:
+
+<img src="./aloitus.PNG" alt="Kuva: Pelin aloitus" />
+
+<img src="./valinta.PNG" alt="Kuva: Eläimen valinta" width="600"/>
+
+<img src="./tilanne.PNG" alt="Kuva: Muutama eläin jo valmis" width="600"/>
+
 ## Käyttö
 Zipissä on exe ja sen käytön edellyttämä satsi JAR-tiedostoja. En takaa, että toimii siltikään...
 
