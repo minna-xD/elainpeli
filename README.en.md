@@ -15,6 +15,15 @@ A player rolls a die and the number determines which animal gets a block:
 The animals are different sizes: a frog has just one block, a duck two etc. When a player finishes an animal, they get a point. 
 Once all animals are ready, the game announces the winner.
 
+## Screenshots
+I drew the animal heads on Chromebook by hand and coloured them in on Windows Paint 3D. I'm not claiming to be an artist. :see_no_evil:
+
+<img src="./aloitus.PNG" alt="Image: Beginning of the game" />
+
+<img src="./valinta.PNG" alt="Image: Picking an animal" width="600"/>
+
+<img src="./tilanne.PNG" alt="Image: A couple of animals finished" width="600"/>
+
 ## Usage
 Here you can find a zip with an exe plus JAR files. Extract them all and run the exe. Not sure if works fool-proof...
 
