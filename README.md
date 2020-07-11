@@ -30,6 +30,10 @@ Piirtelin eläinten päät käsin Chromebookilla ja väritin ihan perus-Paintill
 ## Käyttö
 Zipissä on exe ja sen käytön edellyttämä satsi JAR-tiedostoja. En takaa, että toimii siltikään...
 
+## Versiot
+0.1 - tekstipohjainen
+0.2 - graafinen käyttöliittymä (JavaFX)
+
 # Projektini
 
 (nämä seuraavat muuten varmaan menevät väärin, koska en puhu sujuvaa bisnestä :smile: )
