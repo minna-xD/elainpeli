@@ -28,8 +28,8 @@ I drew the animal heads on Chromebook by hand and coloured them in on Windows Pa
 Here you can find a zip with an exe plus JAR files. Extract them all and run the exe. Not sure if works fool-proof...
 
 ## Versions
-* 0.1 - text-based
-* 0.2 - graphical user interface (JavaFX)
+* 0.1 - Java, text-based
+* 0.2 - Java, graphical user interface (JavaFX)
 
 # My personal projects
 
